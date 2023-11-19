@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        main{
+            border: 2px solid red;
+            height: 40vh;
+            width: 50%;
+            overflow: hidden;
+            overflow-y: scroll;
+            margin: 10%;
+        }
+        main h1{
+            border: 2px solid red;
+            padding:10px 10px;
+            margin: 10px;
+        }
+        main .content{
+            border: 2px solid red;
+            padding:10px 10px;
+            margin: 10px;
+        }
+        main ul li{
+            border: 2px solid red;
+            position: relative;
+            margin-bottom: 0px;
+            list-style-position: outside;
+        }
+        main ul{
+            margin: 8px;
+            width: 100%;
+        }
+        section{
+            display: flex;
+           
+        }
+        .list-items{
+            border: 2px solid red;
+            margin:7px;
+            font-size: 1.1rem;
+        }
+        .section2{
+            padding:7px 10px;
+            font-size: 1.1rem;
+        }
+        .box{
+            border: 2px solid red;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>I'm a box</h1>
+        <p class="content">I'am also a vox with some text in it.Lorem ispsum,dolor sit amit consectetur
+            adipisicing elit. Quod molestiae cumque dolores provident! Quo repellat odio rerum, ipsa maiores adipisci veritatis beatae, non ipsam minus dignissimos amet cupiditate nesciunt quas? 
+        </p>
+        <section class="list-items">
+            <ul>
+                <li>this is a box</li>
+                <li>and all the list items in it are boxes</li>   
+            </ul>
+        </section>
+        <section>
+            <p class="section2">even</p>
+            <button class="section2 box">bottons</button>
+            <p class="section2">and </p>
+            <a href="#" class="section2 box">links</a>
+            <p class="section2">are boxes.</p>
+        </section>
+    </main>
+</body>
+</html>
